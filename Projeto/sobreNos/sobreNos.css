@@ -1,0 +1,69 @@
+*{
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/*body{
+    overflow-x: hidden;
+}*/
+
+#Header{
+    position: fixed;
+    background-color: aqua;
+    height: 15%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    right: 0;
+    display: flex;
+    align-items: left;
+    padding: 3% 0 0 38.5%;
+    z-index: 1;
+}
+
+#Header *{
+    display: inline;
+    width: 100%;
+}
+
+#LinksHeader{
+    text-align: right;
+    margin: 0 0 0 30%;
+}
+
+#LinksHeader a:hover{
+    text-decoration: underline;
+    color: rgb(214, 223, 96);
+    font-size: 140%;
+} 
+
+#LinksHeader > li > a{
+    cursor: pointer;
+    padding: 0 0 0 30px;
+    font-size: 125%;
+    text-decoration: none;
+    color: black;
+}
+
+#Logo{
+    margin: -4% 10px 0 -58%;
+    align-items: left;
+    height: 80px;
+    width: 80px;
+    position: relative;
+
+}
+
+                                                                                /* HEADER */
+#Texto{
+    position: relative;
+    margin-top: 10%;
+}
+
+#Titulo{
+    margin-top: 16%;
+    text-align: center;
+    font-family: 'Lucida Sans', serif;
+}

@@ -1,0 +1,24 @@
+*{
+    height: 100%;
+    width: 100%;
+}
+
+#Header{
+    position: absolute;
+    background-color: aqua;
+    height: 15%;
+    margin: -10px 0px 0px -10px;
+}
+
+#LinksHeader{
+    text-align: right;
+    padding-top: 3.5%;
+}
+
+#LinksHeader > a{
+    cursor: pointer;
+    padding: 10px;
+    font-size: 125%;
+    text-decoration: underline;
+    color: black;
+}
