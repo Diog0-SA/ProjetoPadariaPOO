@@ -1,0 +1,76 @@
+body{
+    background-color: rgb(215, 166, 88);
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+}
+
+.arena-login{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.login{
+    background: #5C3C21;
+    width: 355px;
+    height: 320px;
+    padding: 35px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.login form{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.login input{
+    margin-top: 10px;
+    background-color: rgb(255, 255, 255);
+    color: #5C3C21;
+    border: none;
+    height: 45px;
+    outline: none;
+    padding-left: 10px;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.login img{
+    width: 65px;
+    height: auto;
+
+}
+
+.login::placeholder{
+    color: beige;
+    font-size: 14px;
+}
+
+form [type="submit"]{
+    display: block;
+    background-color: rgb(215, 166, 88);
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+p{
+    margin: 20px 0 0 0;
+    color: rgb(255, 255, 255);
+}
+
+a{
+    color: yellow;
+    text-decoration: none;
+    margin: 30px 0 0 10px;
+    text-decoration: underline;
+}

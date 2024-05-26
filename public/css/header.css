@@ -1,0 +1,27 @@
+.cabecalho {
+  background-color: rgb(206, 176, 129);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 60px;
+}
+.cabecalho .logo {
+  width: 50px;
+}
+.cabecalho .divBusca {
+  display: flex;
+  align-items: center;
+}
+.cabecalho .divBusca .txtBusca {
+  width: 250px;
+  height: 2em;
+  border-radius: 5px;
+}
+.cabecalho .container .lista__links {
+  display: flex;
+  -moz-column-gap: 2em;
+       column-gap: 2em;
+}
+.cabecalho .container .lista__links .lista__item {
+  list-style: none;
+}/*# sourceMappingURL=header.css.map */

@@ -1,0 +1,34 @@
+.cabecalho {
+    background-color: rgb(206, 176, 129);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+
+    .logo {
+        width: 50px;
+    }
+
+    .divBusca {
+        display: flex;
+        align-items: center;
+        border: 0;
+        .txtBusca {
+            width: 250px;
+            height: 2em;
+            border-radius: 15px;         
+        }
+        
+    }
+
+    .container {
+        .lista__links {
+            display: flex;
+            column-gap: 2em;
+
+            .lista__item {
+                list-style: none;
+            }
+        }
+    }
+}
