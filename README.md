@@ -3,7 +3,7 @@
 
 Esse site tem o intuito de divulgar uma padaria e contará com um sistema de venda. O site contará com um página de vendas, sobre mim e carrinho.
 
-O projeto não foi finalizado e não vai ao ar, o intuito é o aprendizado e experiência. O tempo de desenvolvimento foi durante a matéria de Programação Orientada a Objeto na UNICSUL.
+O projeto não vai ao ar, o intuito é o aprendizado e experiência. O tempo de desenvolvimento foi durante a matéria de Programação Orientada a Objeto na UNICSUL.
 
 
 ## Resumo
